@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form >
+        First name: <input type = "text" name = "first_name" />
+        <br>
+        Last name: <input type = "text" name = "last_name" />
+     </form> 
+
+     <form >
+        User ID : <input type = "text" name = "user_id" />
+        <br>
+        Password: <input type = "password" name = "password" />
+
+
+        <form>
+            Description : <br />
+            <textarea rows = "5" cols = "50" name = "description">
+               Enter description here...
+            </textarea>
+         </form>
+     </form>
+
+     <form>
+        <input type = "checkbox" name = "maths" value = "on"> Maths
+        <input type = "checkbox" name = "physics" value = "on"> Physics
+     </form>
+
+     <form>
+        <input type = "radio" name = "subject" value = "maths"> Maths
+        <input type = "radio" name = "subject" value = "physics"> Physics
+     </form>
+
+     <form>
+        <select name = "dropdown">
+           <option value = "Maths" selected>Maths</option>
+           <option value = "Physics">Physics</option>
+        </select>
+     </form>
+
+     <form>
+        <input type = "file" name = "fileupload" accept = "image/*" />
+     </form>
+
+     <form>
+        <input type = "submit" name = "submit" value = "Submit" />
+        <input type = "reset" name = "reset"  value = "Reset" />
+        <input type = "button" name = "ok" value = "OK" />
+        <input type = "image" name = "imagebutton" src = "/html/images/logo.png" />
+     </form>
+
+     <form>
+        <p>This is page 10</p>
+        <input type = "hidden" name = "pagename" value = "10" />
+        <input type = "submit" name = "submit" value = "Submit" />
+        <input type = "reset" name = "reset"  value = "Reset" />
+     </form>
+<br><br>
+
+     <table border = "1">
+        <tr>
+           <td>Row 1, Column 1</td>
+           <td>Row 1, Column 2</td>
+        </tr>
+        
+        <tr>
+           <td>Row 2, Column 1</td>
+           <td>Row 2, Column 2</td>
+        </tr>
+     </table>
+
+<br>
+
+     <table border = "1">
+        <tr>
+           <th>Name</th>
+           <th>Salary</th>
+        </tr>
+        <tr>
+           <td>Ramesh Raman</td>
+           <td>5000</td>
+        </tr>
+        
+        <tr>
+           <td>Shabbir Hussein</td>
+           <td>7000</td>
+        </tr>
+     </table>
+
+
+
+     <br>
+     <table border = "1" cellpadding = "5" cellspacing = "5">
+        <tr>
+           <th>Name</th>
+           <th>Salary</th>
+        </tr>
+        <tr>
+           <td>Ramesh Raman</td>
+           <td>5000</td>
+        </tr>
+        <tr>
+           <td>Shabbir Hussein</td>
+           <td>7000</td>
+        </tr>
+     </table>
+
+     <br>
+     <table border = "1">
+        <tr>
+           <th>Column 1</th>
+           <th>Column 2</th>
+           <th>Column 3</th>
+        </tr>
+        <tr>
+           <td rowspan = "2">Row 1 Cell 1</td>
+           <td>Row 1 Cell 2</td>
+           <td>Row 1 Cell 3</td>
+        </tr>
+        <tr>
+           <td>Row 2 Cell 2</td>
+           <td>Row 2 Cell 3</td>
+        </tr>
+        <tr>
+           <td colspan = "3">Row 3 Cell 1</td>
+        </tr>
+     </table>
+     <br>
+
+     <table border = "1" bordercolor = "green" bgcolor = "yellow">
+        <tr>
+           <th>Column 1</th>
+           <th>Column 2</th>
+           <th>Column 3</th>
+        </tr>
+        <tr>
+           <td rowspan = "2">Row 1 Cell 1</td>
+           <td>Row 1 Cell 2</td>
+           <td>Row 1 Cell 3</td>
+        </tr>
+        <tr>
+           <td>Row 2 Cell 2</td>
+           <td>Row 2 Cell 3</td>
+        </tr>
+        <tr>
+           <td colspan = "3">Row 3 Cell 1</td>
+        </tr>
+     </table>
+     <br>
+     <table border = "1" bordercolor = "green" background = "/images/test.png">
+        <tr>
+           <th>Column 1</th>
+           <th>Column 2</th>
+           <th>Column 3</th>
+        </tr>
+        <tr>
+           <td rowspan = "2">Row 1 Cell 1</td>
+           <td>Row 1 Cell 2</td><td>Row 1 Cell 3</td>
+        </tr>
+        <tr>
+           <td>Row 2 Cell 2</td>
+           <td>Row 2 Cell 3</td>
+        </tr>
+        <tr>
+           <td colspan = "3">Row 3 Cell 1</td>
+        </tr>
+     </table>
+     <br>
+
+
+
+     <table border = "1" width = "100%">
+        <thead>
+           <tr>
+              <td colspan = "4">This is the head of the table</td>
+           </tr>
+        </thead>
+        
+        <tfoot>
+           <tr>
+              <td colspan = "4">This is the foot of the table</td>
+           </tr>
+        </tfoot>
+        
+        <tbody>
+           <tr>
+              <td>Cell 1</td>
+              <td>Cell 2</td>
+              <td>Cell 3</td>
+              <td>Cell 4</td>
+           </tr>
+        </tbody>
+        
+     </table>
+
+<br>
+     <table border = "1" width = "100%">
+         
+        <tr>
+           <td>
+              <table border = "1" width = "100%">
+                 <tr>
+                    <th>Name</th>
+                    <th>Salary</th>
+                 </tr>
+                 <tr>
+                    <td>Ramesh Raman</td>
+                    <td>5000</td>
+                 </tr>
+                 <tr>
+                    <td>Shabbir Hussein</td>
+                    <td>7000</td>
+                 </tr>
+              </table>
+           </td>
+        </tr>
+        
+     </table>
+
+
+
+
+     <br><br>
+     <h1>Company</h1>
+      <p>
+         We are a <a href="/about/about_team.htm">team</a> of professionals working
+         hard to provide free learning content.
+      </p>
+ 
+</body>
+</html>
